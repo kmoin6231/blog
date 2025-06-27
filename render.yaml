@@ -1,0 +1,7 @@
+# Render static site configuration for Vite + React
+services:
+  - type: web
+    name: blog-website
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: dist
